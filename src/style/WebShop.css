@@ -1,0 +1,65 @@
+.componentButton{
+	width: 46%;
+	height: 33px;
+	margin: 1% 1.5%;
+	background-color: #3CAB9E;
+	border: none;
+	float: left;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 680px){
+	.componentButton{
+		width: 95%;		
+	}
+}
+
+.crudButton{
+	width: 25%;
+	height: 33px;
+	margin: 10px;
+	background-color: #3CAB9E;
+	border: none;
+	float: left;
+	font-weight: bold;
+}
+
+.crudButtonWrapper {
+  text-align: left;
+  width: auto;
+  border: 1px solid #a5b;
+  min-height: 50px;
+  padding: 10px;
+  margin: 1px;
+}
+
+@media only screen and (min-width: 1200px){
+    min-height: 180px;
+}
+
+.componentButtonDivWrapper{
+	height: auto;
+    min-height: 110px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 680px){
+	.componentButtonDivWrapper{
+		min-height: 200px;
+	}
+}
+
+@media only screen and (max-width: 300px){
+	.componentButtonDivWrapper{
+		min-height: 170px;
+	}
+}
+
+.crudInputField{
+	width: 69%;
+    height: 33px;
+    margin: 9px;
+    border: 2px solid #ccc;
+    float: right;
+    font-weight: bold;
+}

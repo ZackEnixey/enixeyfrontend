@@ -1,0 +1,186 @@
+.wordsListWrapper{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	width: 100%;
+	background-color: #fff;
+}
+
+@media only screen and (min-width: 600px) {
+	.wordsListWrapper{
+		margin-top: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		height: auto;
+		width: 80%;
+		background-color: #fff;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.wordsListWrapper{
+		margin-top: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		height: auto;
+		width: 70%;
+		background-color: #fff;
+	}
+}
+
+.wordsListNewWordWrapper{
+	margin: 5px 0px;
+    background-color: #3CAB9E;
+    width: 100%;
+    min-height: 35px;
+    overflow-y: auto;
+}
+
+.wordsListOverflow{
+	overflow-y: auto;
+	margin-top: 3px;
+}
+
+.newWordSpelling{
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+
+.newWordExplanation{
+	display: flex;
+	float: left;	
+}
+
+@media only screen and (max-width: 680px) {
+	.newWordExplanation{
+		display: grid;
+		width: inherit;
+	}
+}
+
+
+.newWordSpellingExplanationWrapper{
+	margin: 10px 10px 0px 10px;
+}
+
+.newWordExamples{
+	margin: 5px;
+	padding: 5px;
+	background-color: #fff;
+	display: grid;
+}
+
+.wordListWordAndExplanationWrapper{
+	display: inline-block;
+	width: 85%;
+}
+
+.newWordValue{
+	display: inline-block;
+	float: right;
+	width: 15%;
+}
+
+@media only screen and (min-width: 550px) {
+	.wordListWordAndExplanationWrapper{
+		display: inline-block;
+		width: 89%;
+	}
+
+	.newWordValue{
+		display: inline-block;
+		float: right;
+		width: 11%;
+	}
+}
+
+@media only screen and (min-width: 1050px) {
+	.wordListWordAndExplanationWrapper{
+		display: inline-block;
+		width: 93%;
+	}
+
+	.newWordValue{
+		display: inline-block;
+		float: right;
+		width: 7%;
+	}
+}
+
+.arrowUpStyle{
+	width: 15px;
+	height: 15px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-top: -1px;
+}
+
+.arrowUpStyle:hover{
+	width: 17px;
+	height: 17px;
+	margin-bottom: 4px;
+	margin-left: 3px;
+	margin-top: -2px;
+	transform:scale(.9);
+    box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.newWordValueNumber{
+	padding-top: 1px;
+	color: #fff;
+}
+
+.wordListuploadNewText{
+	border: 1px solid #3CAB9E;
+	padding-top: 10px;
+	width: 100%;
+	margin-top: 5px;
+	height: 55px;
+	padding: 1px;
+	resize: none;
+}
+
+.translationWrapperTypeWord{
+    width: 20%;
+    float: left;
+    color: #444;
+    font-weight: bold;
+    display: flex;
+}
+
+.translationWrapperTranslation{
+	width: 80%;
+    float: right;
+    text-align: left;
+    display: table;
+}
+
+@media only screen and (max-width: 350px) {
+	.translationWrapperTranslation{
+		width: 70%;
+	}
+}
+
+.translationWrapper{
+	min-height: 20px;
+}
+
+.translationWrapperTypeSentence{
+	width: 100%;
+	float: left;
+	min-height: 30px;
+}
+
+.newWordExampleDiv{
+	margin-left: 15px;
+	float: right;
+	text-align: left;
+}
+
+@media only screen and (max-width: 680px) {
+	.newWordExampleDiv{
+		margin-left: 0px;
+	}
+}

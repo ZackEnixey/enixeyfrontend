@@ -1,0 +1,11 @@
+.notificationDiv{
+	width: 98%;
+    margin-top: 23px;
+    border: none;
+    color: #000;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #3CAB9E;
+}

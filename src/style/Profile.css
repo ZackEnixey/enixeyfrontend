@@ -1,0 +1,519 @@
+.profileWrapper{
+	width: 100%;
+	height: 300px;
+	overflow-y: auto;
+	margin-top: 3px;
+}
+
+.profilePictureWrapper{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.profilePictureWrapperWall{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+
+.profileFieldsWrapper{
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.profileMyProfile{
+	height: 15vmin;
+	width: 100%;
+	display: none;
+}
+
+
+.profileFieldsChildWrapper{
+	width: 100%;
+	height: 235px;
+}
+
+.profileInputField{
+	width: 100%;
+	height: auto;
+}
+
+.profileTextInputField{
+	width: 30%;
+	height: 35px;
+	display: inline-block;
+	float: left;
+}
+
+
+.profileFieldInputField{
+	width: 100%;
+	min-height: 50px;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.profileField{ 
+	margin-left: 5%;
+	width: 99%;
+	height: 29px;
+	margin: 3px 0px;
+	border: 1px solid #3CAB9E;
+	font-family: sans-serif;
+}
+
+.profileTextFieldNote{
+	margin-left: 5%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 99%;
+	height: 30px;
+	min-height: 30px;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 1px solid #3CAB9E;
+	font-family: sans-serif;
+}
+
+.profileFieldNote{ 
+	margin-left: 5%;
+	width: 98.3%;
+	height: auto;
+	min-height: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 1px solid #3CAB9E;
+	font-family: sans-serif;
+}
+
+.profileFieldLabelNote{ 
+	margin-left: 0%;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.profileLabelText{
+	padding: 10px 0px 0px 0px;
+	font-family: sans-serif;
+}
+
+.profileLeftMargin{
+	width: 0%;
+	display: inline-block;
+	float: left;
+	height: 2px;
+}
+
+.profileRightMargin{
+	width: 0%;
+	display: inline-block;
+	float: left;
+}
+
+.profileSaveButton{
+	width: 110px;
+	height: 33px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	background-color: #3CAB9E ;
+	border: none;
+	font-weight: bold;
+}
+
+.profileSaveButton:hover{
+	opacity: 0.9;
+}
+
+.profileCancelButton{ 
+	width: 110px;
+	height: 33px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	background-color: #ff2d2d ;
+	border: none;
+	font-weight: bold;
+}
+
+.profileCancelButton:hover{ 
+	opacity: 0.9
+}
+.profileEditButton{
+	width: 98%;
+	height: 50px;
+	top: 0;
+	background-color: #3CAB9E  ;
+	border: none;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.profileSwttinPhoto{
+	width: 58%;
+	height: auto;
+	float: left;
+	display: inline-block;
+}
+
+.profilePictureDescriptionWrapper{
+	width: 100%;
+	height: auto;
+}
+
+.profileDescription{
+	width: 100%;
+	margin-left: 0%;
+	font-family: sans-serif;
+	font-size: 14px;
+	float: left;
+}
+
+.profileDescriptionWrapper{
+	width: 42%;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;;
+	float: left;
+}
+
+.profilePostNote{
+	width: 96%;
+    height: auto;
+    padding: 1%;
+    min-height: 90px;
+    margin-top: 5px;
+    margin-left: 1%;
+    border: 1px solid #3CAB9E;
+    font-family: sans-serif;
+}
+
+.profilePostNoteText{
+	width: 100%;
+	height: auto;
+	font-size: 12px;
+}
+
+.clear { 
+	clear: both;
+}
+
+.profileDescriptionText{
+	padding: 2px 0px;
+	font-size: 11px;
+	margin-left: 5px
+}
+
+.profileNoteDate{
+	font-size: 11px
+}
+
+.selectField{
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px){
+	.profileFieldInputField{
+		width: 70%;
+		height: auto;
+		min-height: 50px;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileField{ 
+		margin-left: 5%;
+		width: 98%;
+		height: 29px;
+		margin: 3px 0px;
+		border: 1px solid #3CAB9E;
+		font-family: sans-serif;
+	}
+
+	.profileTextFieldNote{
+		margin-left: 5%;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		width: 92%;
+		height: 30px;
+		margin-top: 0px;
+		margin-left: 4%;
+		border: 1px solid #3CAB9E;
+		font-family: sans-serif;
+	}
+
+	.profileFieldNote{ 
+		margin-left: 5%;
+		margin-bottom: 2px;
+		width: 91.5%;
+		height: auto;
+		min-height: 90px;
+		margin-top: 0px;
+		margin-left: 4%;
+		border: 1px solid #3CAB9E;
+		font-family: sans-serif;
+	}
+
+	.profileLabelText{
+		padding: 10px 0px 0px 20px;
+		font-family: sans-serif;
+	}
+
+	.profileFieldLabelNote{ 
+		margin-left: 6%;
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+
+	.profilePictureWrapper{
+		width: 25%;
+		height: auto;
+		display: inline-block;
+		float: left;
+	}
+
+	.profilePictureWrapperWall{
+		width: 25%;
+		height: 350px;
+		display: inline-block;
+		float: left;
+	}
+
+
+	.profileFieldsWrapper{
+		width: 65%;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileTextInputField{
+		width: 30%;
+		height: 50px;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileMyProfile{
+		height: 15vmin;
+		width: 100%;
+		display: block;
+	}
+
+	.profileLeftMargin{
+		width: 5%;
+		height: 2px;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileRightMargin{
+		width: 5%;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileSwttinPhoto{
+		width: 100%;
+		height: auto;
+		float: left;
+		display: inline-block;
+	}
+
+	.profilePictureDescriptionWrapper{
+		width: 100%;
+		height: auto;
+	}
+
+	.profileDescription{
+		width: 100%;
+		margin-left: 0%;
+		font-family: sans-serif;
+		font-size: 14px;
+		float: left;
+	}
+
+	.profileDescriptionWrapper{
+		padding-top: 10px;
+		width: 100%;
+		display: inline-block;
+		font-family: sans-serif;
+		font-weight: bold;;
+		float: left;
+	}
+
+	.profileEditButton{
+		width: 100%;
+		height: 50px;
+		top: 0;
+		background-color: #3CAB9E  ;
+		border: none;
+		font-weight: bold;
+		margin-bottom: 30px;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	.profileSnedButtonAligne{
+		margin-right: 2%;
+	}
+
+	.profilePostNote{
+		width: 90%;
+	    height: auto;
+	    padding-top: 1%;
+	    min-height: 90px;
+	    margin-top: 5px;
+	    margin-left: 6%;
+	    border: 1px solid #3CAB9E;
+	    font-family: sans-serif;
+	}
+
+	.profilePostNoteText{
+		width: 100%;
+		height: auto;
+		font-size: 14px;
+	}
+
+	.profileDescriptionText{
+		padding: 5px 0px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px){
+	.profileTextInputField{
+		width: 20%;
+		height: 50px;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileFieldInputField{
+		width: 80%;
+		min-height: 50px;
+		height: auto;
+		display: inline-block;
+		float: left;
+	}
+
+	.profilePictureWrapper{
+		width: 20%;
+		height: auto;
+		display: inline-block;
+		float: left;
+	}
+
+	.profilePictureWrapperWall{
+		width: 20%;
+		height: 350px;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileFieldsWrapper{
+		width: 60%;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileLeftMargin{
+		width: 10%;
+		display: inline-block;
+		float: left;
+		height: 2px;
+	}
+
+	.profileRightMargin{
+		width: 10%;
+		display: inline-block;
+		float: left;
+	}
+
+	.profileSwttinPhoto{
+		width: 100%;
+		height: auto;
+	}
+
+	.profilePictureDescriptionWrapper{
+		width: 100%;
+		height: auto;
+	}
+
+	.profileEditButton{
+		width: 100%;
+		height: 50px;
+		top: 0;
+		background-color: #3CAB9E  ;
+		border: none;
+		font-weight: bold;
+		margin-bottom: 30px;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	.profileLabelText{
+		padding: 10px 0px 0px 20px;
+		font-family: sans-serif;
+	}
+
+	.profileSnedButtonAligne{
+		margin-right: 2%;
+	}
+
+	.profilePostNoteText{
+		width: 100%;
+		height: auto;
+		font-size: 15px;
+	}
+
+	.profileDescriptionText{
+		padding: 5px 0px;
+	}
+
+	.profileNoteDate{
+		font-size: 12px
+	}
+
+}
+
+
+@media only screen and (max-width: 300px ){
+	.profileEditButton{
+		margin-bottom: 5px;
+	}
+}

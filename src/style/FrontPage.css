@@ -1,0 +1,58 @@
+.frontPageBackGround {
+  background-color: #3CAB9E;
+  width: 100%;
+  height: 100%;
+}
+
+.frontPageLogoDimension {
+	width: 151px;
+	height: 133px;
+}
+
+.frontPageBackgroundColor {
+	background-color: #3CAB9E;
+}
+
+.frontPageLayerHeight {
+	height: 450px;
+}
+
+.frontPageScrollingBottomAdWrapper{ 
+	height:100%;
+	width:100%;
+	background-color: #000;
+	overflow-y:hidden;
+	overflow-x:auto;
+	white-space: nowrap;
+}
+
+.frontPageScrollingBottomAd {
+  border: solid 1px #fff;
+  margin: 5px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.frontPageScrollingBottomAd:hover {
+  border: solid 1px #fff;
+  margin: 5px;
+  height: 100%;
+  opacity: 0.7;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.comfirmButton{
+    width: 80%;
+    margin-top: 23px;
+    border: none;
+    color: #000;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 200px;
+}

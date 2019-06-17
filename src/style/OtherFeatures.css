@@ -1,0 +1,797 @@
+
+.otherFeaturesITEMDivWrapper{
+	cursor: pointer;
+	display:inline-block;
+	width: 96%;
+	height: 55%;
+	border: 1px solid #3CAB9E;
+	margin: 2% 2% 4% 2%;
+}
+
+.listOfOtherFeaturesWrapper{
+	overflow-y: auto;
+	padding: 2%;
+}
+
+
+/*image*/
+.otherFeaturesITEMImageWraper{
+	width: 96%;
+	margin: 2%;
+	height: 66%;
+	padding: ;
+}
+
+.otherFeaturesITEMImage{
+	width: 55%;
+	height: auto;
+}
+
+/*text*/
+.otherFeaturesITEMText{
+	width: 96%;
+	margin: 2%;
+	height: 26%;
+	padding: 15px 2px;
+	color: #3CAB9E;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.otherFeaturesITEMDivWrapper:hover{
+		background-color: #eee;
+	}
+
+	.otherFeaturesITEMText:hover{
+		font-size: 21px;
+	}
+
+	.otherFeaturesITEMImage:hover{
+		width: 56%;
+		height: auto;
+	}
+
+
+@media only screen and (min-width: 420px){
+	
+	.otherFeaturesITEMDivWrapper{
+		cursor: pointer;
+		display:inline-block;
+		width: 45%;
+		height: 40vmin;
+		border: 1px solid #3CAB9E;
+		margin: 2%;
+		float: left;
+	}
+
+	.listOfOtherFeaturesWrapper{
+		overflow-y: auto;
+		padding: 1%;
+	}
+
+	.otherFeaturesITEMText{
+		font-size: 18px;
+	}
+
+	.otherFeaturesITEMImage{
+		width: 68%;
+		height: auto;
+	}
+
+	/* HOVER */
+	.otherFeaturesITEMText:hover{
+		font-size: 20px;
+	}
+
+	.otherFeaturesITEMImage:hover{
+		width: 70%;
+		height: auto;
+	}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 680px){
+	
+	.otherFeaturesITEMDivWrapper{
+		cursor: pointer;
+		display:inline-block;
+		width: 29%;
+		height: 25vmax;
+		border: 1px solid #3CAB9E;
+		margin: 2%;
+		float: left;
+
+	}
+
+	.listOfOtherFeaturesWrapper{
+		overflow-y: auto;
+		padding: 1%;
+	}
+
+	.otherFeaturesITEMText{
+		width: 96%;
+		margin: 2%;
+		height: 26%;
+		padding: 10px 2px;
+		color: #3CAB9E;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 26px
+	}
+
+	.otherFeaturesITEMText{
+		font-size: 18px;
+	}
+
+	.otherFeaturesITEMImage{
+		width: 62%;
+		height: auto;
+	}
+
+	/* hover */
+	.otherFeaturesITEMText:hover{
+		font-size: 19px;
+	}
+
+	.otherFeaturesITEMImage:hover{
+		width: 64%;
+		height: auto;
+	}
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1100px){
+	
+	.otherFeaturesITEMDivWrapper{
+		cursor: pointer;
+		display:inline-block;
+		width: 22.3%;
+		height: 20vmax;
+		border: 1px solid #3CAB9E;
+		margin: 1%;
+		float: left;
+		padding-bottom: 0.5%;
+	}
+
+	.listOfOtherFeaturesWrapper{
+		overflow-y: auto;
+		padding: 0% 0% 0% 1%;
+	}
+
+	.otherFeaturesITEMText{
+		font-size: 19px;
+	}
+
+	.otherFeaturesITEMImage{
+		width: 57%;
+		height: auto;
+	}
+
+	/* hover */
+
+	.otherFeaturesITEMText:hover{
+		font-size: 20px;
+	}
+
+	.otherFeaturesITEMImage:hover{
+		width: 59%;
+		height: auto;
+	}
+
+}
+
+.statisticsBodyWrapper{
+	overflow-y: auto;
+}
+
+/*********/
+		.statisticsDemoImage{
+			width: 100%;
+			height: auto;
+			margin: 20px 0%;
+		}
+
+		@media only screen and (min-width: 680px){
+			.statisticsDemoImage{
+				width: 90%;
+				height: auto;
+				margin: 20px 5%;
+			}
+		}
+
+		@media only screen and (min-width: 1000px){
+			.statisticsDemoImage{
+				width: 80%;
+				height: auto;
+				margin: 20px 10%;
+			}
+		}
+/*********/
+
+.statisticsTitleText{
+	float: left;
+	width: 100%;
+  	height: auto; 
+  	font-family: sans-serif;
+  	font-size: 20px;
+  	color: #3CAB9E;
+  	margin-top: 10px;
+  	font-weight: bold;
+  	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************    ABOUT   ***************************/
+
+/********************    ABOUT   ***************************/
+
+/********************    ABOUT   ***************************/
+
+/********************    ABOUT   ***************************/
+
+/********************    ABOUT   ***************************/
+
+/********************    ABOUT   ***************************/
+
+/********************    ABOUT   ***************************/
+
+/********************    ABOUT   ***************************/
+
+/********************    ABOUT   ***************************/
+.aboutBodyWrapper{
+	margin-top: 3px;
+    width: 100%;
+    margin-left: 0%
+
+}
+
+.aboutPhotoAndContactInfoWrapper{
+	width: 100%;
+	height: auto;
+	background-color: pink;
+}
+
+.aboutPhotoDiv{
+	width: 100%;
+	height: auto;
+	float: left;
+	display: inline-block;
+}
+
+.aboutContactInfoWrapper{
+	width: 100%;
+	height: auto;
+	float: left;
+	display: inline-block;
+}
+
+.aboutContactInfoWrapper{
+	width: 100%;
+	height: 35vmax;
+	float: left;
+	display: inline-block;
+}
+
+.aboutPhotoPhoto{
+	width: 80%;
+	max-width: 280px;
+	margin-top: 3px;
+	height: auto;
+}
+
+.aboutBodyWrapperScroller{
+	overflow-y: scroll;
+}
+
+.aboutContactInfoNAME{
+	padding-left: 3%;
+	padding-bottom: 2%;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.aboutContactInftoContacts{
+	width: 100%;
+	height: auto;
+}
+
+.contactsOne{
+	width: 100%;
+	float: left;
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-left: 3%;
+	text-align: left;
+}
+
+.contactsTwo{ 
+	width: 100%;
+	float: left;
+	display: inline-block;
+}
+
+.contactTextLeft{
+	float: left;
+	width: auto;
+	display: contents;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.contactTextRight{
+	text-align: left;
+	padding-left: 3%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.aboutContainerPart{
+	width: 100%;
+	height: auto;
+	min-height: 50px;
+	clear: both;
+}
+
+.appsGreenBackground{
+	background-color: #3CAB9E;
+}
+
+.appsGreen{
+	color: #3CAB9E;
+}
+
+.aboutTitleText{
+	text-align: left;
+	padding: 1%;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+
+
+.aboutParagraphText{
+	text-align: justify;
+	margin: 1%;
+	line-height: 140%;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.aboutWorkExperienceWrapper{
+	width: 100%;
+	height: auto;
+	margin: 20px 0px;
+}
+
+.aboutWorkExperienceTitleAndPeriodWrapper{
+	width: 100%;
+	height: auto;
+}	
+
+.wholeLineWrapper{
+	width: 98%;
+}
+
+.displayInline{
+	display: inline-block;
+	float: left;
+}
+
+.aboutEducationName{
+	width: 98%;
+}
+
+.aboutEducationPeriod{
+	width: 98%;
+}
+	
+
+	/******************************************/
+	/******************************************/
+	/******************************************/
+	/******************************************/
+
+.employerWrapper{
+	width: 98%;
+	height: auto;
+	margin: 1%;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+	
+.employer{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.position{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.workDate{
+	width: 98%;
+	height: auto;
+	margin: 1%;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.workDescription{
+	width: 98%;
+	height: auto;
+	margin: 1%;
+	display: inline-block;
+	text-align: justify;
+	float: left;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 140%;
+	margin: 20px 1%;
+}
+
+.aboutSkills{
+	width: 100%;
+	float: left;
+	text-align: left;
+	display: inline-block;
+	margin: 1% 1%;
+}
+
+.aboutReferencewrapper{
+	margin: 5% 1%;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+
+
+
+
+
+	
+
+@media only screen and (min-width: 607px){
+	.aboutBodyWrapper{
+		margin-top: 3px;
+	    width: 100%;
+	    height: 1000px;
+	    margin-left: 0%;
+	}
+
+	.aboutPhotoAndContactInfoWrapper{
+		width: 100%;
+		height: auto;
+		background-color: pink;
+	}
+
+	.aboutPhotoDiv{
+	
+		width: 30%;
+		height: 30vmax;
+		padding-top: 2%;
+		float: left;
+		display: inline-block;
+	}
+
+	.aboutContactInfoWrapper{
+		width: 70%;
+		height: 30vmax;
+		float: left;
+		display: inline-block;
+	}
+
+	.aboutContactInfoWrapper{
+
+		width: 70%;
+		height: 30vmax;
+		padding-top: 2%;
+		float: left;
+		display: inline-block;
+	}
+
+	.aboutPhotoPhoto{
+		width: 80%;
+		max-width: 280px;
+		margin-top: 3px;
+		height: auto;
+	}
+
+	.contactsOne{
+		width: 47%;
+		float: left;
+		display: inline-block;
+	}
+	.contactsTwo{ 
+		width: 50%;
+		float: left;
+		display: inline-block;
+	}
+
+	.contactTextLeft{
+		width: 95%;
+		text-align: left;
+		padding-left: 0%;
+		display: block;
+		padding-top: 0.7%;
+		padding-bottom: 0.7%;
+	}
+
+	.contactTextRight{
+		text-align: right;
+		padding-right: 5%;
+		padding-top: 0.7%;
+		padding-bottom: 0.7%;
+	}
+
+	.aboutTitleText{
+		font-size: 25px;
+	}
+
+	.aboutParagraphText{
+		font-size: 16px;
+	}
+
+	.aboutEducationName{
+		width: 48%;
+	}
+
+	.aboutEducationPeriod{
+		width: 48%;
+	}
+
+	.employerWrapper{
+		width: 48%;
+		height: auto;
+		margin: 1%;
+	}
+	
+	.employer{
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	.position{
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	.workDate{
+		width: 48%;
+		height: auto;
+		margin: 1%;
+		display: inline-block;
+		text-align: right;
+		font-size: 15px;
+	}
+
+	.workDescription{
+		width: 98%;
+		height: auto;
+		margin: 2% 1%;
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	.aboutReferencewrapper{
+		margin: 5% 1%;
+		font-family: sans-serif;
+		font-size: 15px;
+	}
+}
+
+
+
+@media only screen and (min-width: 782px){
+	.aboutBodyWrapper{
+		margin-top: 3px;
+	    width: 90%;
+	    height: 1000px;
+	    margin-left: 5%;
+	}
+
+	.aboutPhotoDiv{
+		width: 30%;
+		height: 25vmax;
+		padding-top: 2%;
+		float: left;
+		display: inline-block;
+	}
+
+	.aboutContactInfoWrapper{
+		width: 70%;
+		height: 25vmax;
+		padding-top: 2%;
+		float: left;
+		display: inline-block;
+	}
+
+	.contactTextLeft{
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
+	}
+
+	.contactTextRight{
+		padding: 1% 5%;
+		font-size: 15px;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
+	}
+
+}
+
+
+@media only screen and (min-width: 1000px){
+	.aboutBodyWrapper{
+		margin-top: 3px;
+	    width: 80%;
+	    height: 1000px;
+	    margin-left: 10%;
+	}
+
+	.aboutPhotoDiv{
+		width: 30%;
+		height: 21vmax;
+		padding-top: 2%;
+		float: left;
+		display: inline-block;
+	}
+
+	.aboutContactInfoWrapper{
+		width: 70%;
+		height: 21vmax;
+		padding-top: 2%;
+		float: left;
+		display: inline-block;
+	}
+
+	.contactTextRight{
+		padding: 1% 5%;
+		font-size: 16px;
+		font-weight: bold;		
+	}
+
+	.contactTextLeft{
+		font-weight: bold;
+		padding-top: 1.1%;
+		padding-bottom: 1.5%;
+	}
+
+}
+
+
+@media only screen and (min-width: 1200px){
+	.aboutBodyWrapper{
+		margin-top: 3px;
+	    width: 70%;
+	    height: 1000px;
+	    margin-left: 15%;
+	}
+
+	.aboutPhotoDiv{
+		width: 30%;
+		height: 19vmax;
+		padding-top: 2%;
+		float: left;
+		display: inline-block;
+	}
+
+	.aboutContactInfoWrapper{
+		width: 70%;
+		height: 19vmax;
+		padding-top: 2%;
+		float: left;
+		display: inline-block;
+	}
+
+	.contactTextRight{
+		padding: 2.5% 5%;
+		font-size: 16px;
+		font-weight: bold;		
+	}
+
+	.contactTextLeft{
+		font-weight: bold;
+		padding-bottom: 6%;
+	}
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,351 @@
+
+.dashboardBookWrapper{
+	float: left;
+	cursor: pointer;
+	width: 150px;
+	height: 250px;
+	background-color: #fff;
+	margin: 10px 5px;
+}
+
+.dashboardBook{
+	width: 150px;
+	height: 250px;
+	box-shadow: 0 4px 2px -2px gray;
+}
+
+.dashboardBookWrapper:hover{
+	float: left;
+	cursor: pointer;
+	width: 150px;
+	height: 250px;
+	background-color: #fff;
+	margin: 10px 5px;
+	opacity: 0.7;
+}
+
+.dashboardBook:hover{
+	width: 150px;
+	height: 250px;
+	box-shadow: 0 4px 2px -2px gray;
+	opacity: 0.7;
+}
+
+@media only screen and (min-width: 50px) {
+	.dashboardBookWrapper{
+		float: left;
+		cursor: pointer;
+		width: 46%;
+		height: auto;
+		background-color: #fff;
+		margin: 10px 5px;
+	}
+
+	.dashboardBook{
+		width: 100%;
+		height: 62vw;
+		box-shadow: 0 4px 2px -2px gray;
+	}
+
+	.dashboardBookWrapper:hover{
+		float: left;
+		cursor: pointer;
+		width: 46%;
+		height: auto;
+		background-color: #fff;
+		margin: 10px 5px;
+		opacity: 0.7;
+	}
+
+	.dashboardBook:hover{
+		width: 100%;
+		height: 62vw;
+		box-shadow: 0 4px 2px -2px gray;
+		opacity: 0.7;
+	}
+}
+
+
+@media only screen and (min-width: 460px) {
+	.dashboardBookWrapper{
+		float: left;
+		cursor: pointer;
+		width: 31%;
+		height: auto;
+		background-color: #fff;
+		margin: 10px 5px;
+	}
+
+	.dashboardBook{
+		width: 100%;
+		height: 44vw;
+		box-shadow: 0 4px 2px -2px gray;
+	}
+
+	.dashboardBookWrapper:hover{
+		float: left;
+		cursor: pointer;
+		width: 31%;
+		height: auto;
+		background-color: #fff;
+		margin: 10px 5px;
+		opacity: 0.7;
+	}
+
+	.dashboardBook:hover{
+		width: 100%;
+		height: 44vw;
+		box-shadow: 0 4px 2px -2px gray;
+		opacity: 0.7;
+	}
+
+}
+
+@media only screen and (min-width: 590px) {
+	.dashboardBookWrapper{
+		float: left;
+		cursor: pointer;
+		width: 23.1%;
+		height: auto;
+		background-color: #fff;
+		margin: 10px 5px;
+	}
+
+	.dashboardBook{
+		width: 100%;
+		height: 32vw;
+		box-shadow: 0 4px 2px -2px gray;
+	}
+
+	.dashboardBookWrapper:hover{
+		float: left;
+		cursor: pointer;
+		width: 23.1%;
+		height: auto;
+		background-color: #fff;
+		margin: 10px 5px;
+		opacity: 0.7;
+	}
+
+	.dashboardBook:hover{
+		width: 100%;
+		height: 32vw;
+		box-shadow: 0 4px 2px -2px gray;
+		opacity: 0.7;
+	}
+}
+
+@media only screen and (min-width: 1050px) {
+	.dashboardBookWrapper{
+		float: left;
+		cursor: pointer;
+		width: 13.3%;
+		height: auto;
+		background-color: #fff;
+		margin: 10px 5px;
+	}
+
+	.dashboardBook{
+		width: 100%;
+		height: 20vw;
+		box-shadow: 0 4px 2px -2px gray;
+	}
+
+	.dashboardBookWrapper:hover{
+		float: left;
+		cursor: pointer;
+		width: 13.3%;
+		height: auto;
+		background-color: #fff;
+		margin: 10px 5px;
+		opacity: 0.7;
+	}
+
+	.dashboardBook:hover{
+		width: 100%;
+		height: 20vw;
+		box-shadow: 0 4px 2px -2px gray;
+		opacity: 0.7;
+	}
+}
+
+
+
+.mainDashboardWrapper{
+	overflow-y: auto;
+}
+
+.dashboardDivWrapper{
+	background-color: #fff;
+	width: 100%;
+}
+
+
+
+.backdropStyle {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    background-color: rgba(0,0,0,0.3);
+    padding: 20vmin 5px 5px 5px;
+}
+
+.modalStyle {
+    background-color:  #fff;
+    max-width: 500px;
+    min-height: 300px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+	.backdropStyle {
+	    position: fixed;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    overflow-y: auto;
+	    background-color: rgba(0,0,0,0.3);
+	    padding: 95px 50px;
+	    z-index: 22;
+	}
+
+	.modalStyle {
+	    background-color:  #fff;
+	    max-width: 500px;
+	    min-height: 300px;
+	    margin: 0px auto;
+	    padding: 30px;
+	    z-index: 22;
+	}
+}
+
+.addNewBookModalStyle{
+	width: 100%;
+    height: 220px;
+    margin-top: 36px;
+    border: 2px dashed #3CAB9E;
+    background-color: #fff;
+}
+
+
+.addNewBookModalStyle:hover {
+	width: 100%;
+    height: 220px;
+    margin-top: 36px;
+    border: 2px dashed #3CAB9E;
+    background-color: #d9d9d9;
+}
+
+.footer{
+	width: 101%;
+	float: left;
+}
+
+.addNewReadingMaterialCANCELButton{
+	width: 110px;
+	height: 33px;
+	margin: 3px 10px;
+	background-color: #EC2131;
+	border: none;
+	font-weight: bold;
+}
+
+.addNewReadingMaterialSAVEButton{
+	width: 110px;
+	height: 33px;
+	margin: 3px 0px;
+	background-color: #3CAB9E;
+	border: none;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+	.addNewReadingMaterialCANCELButton{
+		width: 100px;
+		height: 33px;
+		margin: 3px 10px;
+		background-color: #EC2131;
+		border: none;
+	}
+
+	.addNewReadingMaterialSAVEButton{
+		width: 100px;
+		height: 33px;
+		margin: 3px 0px;
+		background-color: #3CAB9E;
+		border: none;
+		font-weight: bold;
+	}
+}
+
+.addNewReadingMaterialDragAndDrop{
+	margin-top: 100px;
+}
+
+
+.addNewReadingMaterialUPLOADButton{
+	width: 49%;
+	height: 33px;
+	background-color: #3CAB9E;
+	border: none;
+	float: left;
+	font-weight: bold;
+}
+
+.addNewReadingMaterialUPLOADButton:hover{
+	width: 49%;
+	height: 33px;
+	opacity: 0.8;
+	background-color: #3CAB9E;
+	border: none;
+	float: left;
+	font-weight: bold;
+}
+
+.addNewReadingMaterialRightUPLOADButtonAdjustment{
+	margin-right: -5px;
+}
+
+
+.uploadNewText{
+	border: 1px solid #3CAB9E;
+	width: 100%;
+	margin-top: 5px;
+	height: 220px;
+	padding: 1px;
+	resize: none;
+}
+
+.resizeNone{
+	resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
