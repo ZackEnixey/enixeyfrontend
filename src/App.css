@@ -1,0 +1,89 @@
+.App {
+    text-align: center;
+}
+
+.demoDiv{
+	width: 100px;
+	height: 50px;
+	background-color: #d5d5d5;
+	border: 1px solid #020306;
+}
+
+.cursorPointer{
+	cursor: pointer;
+}
+
+.appColor{
+	color: #3CAB9E;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.fontfamily{
+	font-family: sans-serif;
+}
+
+.textAlignleft{
+	text-align: left;
+}
+
+.textTemplate{
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	line-height: 140%;
+}
+
+.notBold{
+	font-weight: 100;
+}
+
+.infoText{
+	color: #3CAB9E;
+	font-size: 36px;
+	font-family: sans-serif;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.marginRightTwenty{
+	margin-right: 10px;
+}
+
+.marginTopHundred{
+	margin-top: 100px;
+}
+
+.marginTopFifty{
+	margin-top: 50px;
+}
+
+
+@media only screen and (min-width: 600px){
+	.marginRightTwenty{
+		margin-right: 20px;
+	}
+}
+
+@import url("./style/FrontPage.css");
+@import url("./style/Positioning.css");
+@import url("./style/LogInSignUp.css");
+@import url("./style/Header.css");
+@import url("./style/Dashboard.css");
+@import url("./style/OpenedBook.css");
+@import url("./style/WordsList.css");
+@import url("./style/Profile.css");
+@import url("./style/OtherFeatures.css");
+@import url("./style/Forum.css");
+@import url("./style/Notification.css");
+@import url("./style/WebShop.css");
